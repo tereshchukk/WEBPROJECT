@@ -1,0 +1,18 @@
+form {
+    margin: 0 auto;
+    padding: 20px;
+    width: 300px; 
+    border-radius: 10px;
+    background-color: #d11616;
+    box-shadow: 0 0 10px #c00c0c;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    margin-bottom: 10px;
+    width: 95%;
+    height: 24px;
+}
+    

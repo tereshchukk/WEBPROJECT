@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">    
+<title></title>    
+</head>
+<body>
+<form method="POST" action="test.php">    
+<h1>Форма онлайн-бронирования</h1>    
+<table>       
+<tr>           
+<td style="background-color: blue;width:30;">Имя Клиента:</td>           
+<td style="background-color: blue;width:50;">
+<input type="text" name="name"></td>       
+</tr>       
+<tr>          
+<td style="background-color:gray;width:30;">Пол клиента:</td>          
+<td style="background-color: gray;width:50;">            
+<select name="sex" size="1" multiple>              
+<option value="мужчина" selected>мужчина</option>              
+<option value="женский" >женский</option>            
+</select>           
+</td>       
+</tr>
+<tr>           
+<td style="background-color: blue;width:30;">Время прибытия:</td>           
+<td style="background-color: blue;width:50;">              
+<select name="time" size="1" multiple>                
+<option value="1 день спустя" selected>через один день</option>                
+<option value="2 дня спустя" >Спустя два дня</option>                
+<option value="3 дня спустя" >Через три дня</option>              
+</select>            
+</td>       
+</tr>       
+<tr>           
+<td style="background-color:gray;width:30;">Телефон:</td>           
+<td style="background-color:gray;width:50;">
+<input type="text" name="telphone"></td>       
+</tr>       
+<tr>           
+<td style="background-color: blue;width:30;">email：</td>           
+<td style="background-color: blue;width:50;">
+<input type="text" name="email"></td>       
+</tr>       
+<tr>           
+<td style="background-color:gray;width:30;height:50;">другие требования:</td>           
+<td><input type="text" name="text" width="50px" height="50px" placeholder="Если у вас есть другие требования, заполните здесь."></td>       
+</tr>    
+</table>    
+<input type="submit" value="Пожалуйста, подтвердите информацию о бронировании">
+</form>
+</body>
+</html>
